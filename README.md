@@ -12,6 +12,9 @@ O framework está estruturado em três camadas:
 - **Processo** — Práticas integradas de desenvolvimento ágil e DevOps
 - **AI-Enabled Activities** — Atividades assistidas por LLMs e outras técnicas de IA (transversal)
 
+## 🚀 Contexto
+Este framework é resultado direto de uma pesquisa aplicada a um grande banco brasileiro, mais especificamente à área de investimentos, que enfrenta desafios constantes relacionados à manutenção de regras tributárias implementadas em sistemas legados (mainframe). A partir desse cenário real, foi conduzido um experimento com base na proposta do SPREAD para reengenharia de domínios, com foco na extração e modularização de regras de negócio via motor de cálculo desacoplado. O caso fornece dados empíricos sobre como a incorporação de IA pode transformar atividades centrais do processo de software — como análise de requisitos, planejamento, design e refatoração — tornando-as mais eficientes, rastreáveis e adaptativas às mudanças do negócio.
+
 ## 🎯 Objetivos
 
 - Promover **decisões conscientes sobre granularidade de serviços**
