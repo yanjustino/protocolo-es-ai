@@ -19,12 +19,12 @@ A etapa de Design é responsável pela transformação dos requisitos levantados
 
 ## 📄 Artefatos
 
-- [Modelagem de dados](./artifacts/design-modelagem-dados.md)
-- [Análise de Trade-offs ](./artifacts/design-tradeoffs.md)
-- [Arquitetura de software (Main)](./artifacts/design-diagram.md)
-- [Arquitetura de software (Contexto)](./artifacts/design-diagram-context.md)
-- [Arquitetura de software (Containers)](./artifacts/design-diagram-container.md)
-- [Arquitetura de software (Componentes)](./artifacts/design-diagram-component.md)
+- [Modelagem de dados](./artifact/design-modelagem-dados.md)
+- [Análise de Trade-offs ](./artifact/design-tradeoffs.md)
+- [Arquitetura de software (Main)](./artifact/design-diagram.md)
+- [Arquitetura de software (Contexto)](./artifact/design-diagram-context.md)
+- [Arquitetura de software (Containers)](./artifact/design-diagram-container.md)
+- [Arquitetura de software (Componentes)](./artifact/design-diagram-component.md)
 
 ## 🔗 Anexos
 

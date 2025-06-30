@@ -18,8 +18,8 @@ Nesta fase, são realizadas atividades que permitem detalhar o que o sistema dev
 
 ## 📄 Artefatos
 
-- [Documento de Requisitos de Software (DRS)](./artifacts/analysis-document.md)
-- [Backlog de Produto](./artifacts/analysis-backlog.md)
+- [Documento de Requisitos de Software (DRS)](./artifact/analysis-document.md)
+- [Backlog de Produto](./artifact/analysis-backlog.md)
 
 ## 🔗 Anexos
 
