@@ -12,7 +12,7 @@ Etapa dedicada à organização estruturada do projeto, na qual se definem os pr
 
 ## 📄 Artefatos
 
-- [Plano](./plan-document.md)
+- [Plano](./artifacts/plan-document.md)
 
 ## 🔗 Anexos
 

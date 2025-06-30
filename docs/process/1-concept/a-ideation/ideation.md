@@ -21,9 +21,9 @@ Etapa responsável pela geração da ideia inicial do projeto, partindo de uma n
 
 ## 📄 Artefatos
 
-- [Estudos de benchmarking e tendênciasdo](./ideation-reseach.md)
-- [Roteiro de entrevista](./ideation-questions.md)
-- [Documento de contexto](./ideation-context.md)
+- [Estudos de benchmarking e tendênciasdo](./artifacts/ideation-reseach.md)
+- [Roteiro de entrevista](./artifacts/ideation-questions.md)
+- [Documento de contexto](./artifacts/ideation-context.md)
 
 ## 🔗 Anexos
 
