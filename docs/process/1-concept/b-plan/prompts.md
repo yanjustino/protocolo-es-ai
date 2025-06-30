@@ -1,22 +1,7 @@
-# 💡 PLAN
-Etapa dedicada à organização estruturada do projeto, na qual se definem os principais elementos que irão guiar a execução: escopo, recursos, prazos, entregas e responsabilidades. O objetivo é transformar a ideia conceitual (gerada na ideação) em um plano viável e rastreável, com previsibilidade e alinhamento entre os envolvidos.
-
-## 📘 Atividades 
-| Atividade                          | Artefatos                                                                                     | Execução            |
-|------------------------------------|-----------------------------------------------------------------------------------------------|---------------------|
-| Definição do escopo inicial        | Levantamento e alocação de recursos (equipe, ferramentas, infraestrutura) <br> Estimativas de esforço e cronograma de entregas <br> Identificação de dependências e restrições <br> Mapeamento de riscos e plano de mitigação <br> Alinhamento com stakeholders e validação do plano | 🧑🏽🧠 Humano com suporte de IA |
-
-## 🧰 Ferramentas
-- LLMs
-    - ChatGpt o3 | Gemini 2.5 Pro
-
-## 📄 Artefatos
-
-- [Plano](./artifact/plan-document.md)
-
 ## 🔗 Anexos
 
-### Prompt para geração do plano de projeto
+
+### A. Prompt para geração do plano de projeto
 ````xml
 <context>
     Você irá atuar como um especialista em projetos de software com enfase elaboração e análise de requisitos. Seu papel é auxiliar na geração de um planejamento para guiar a execução do projeto. Com base no {{DOCUMENTO}} de contexto em <attachement>, defina o escopo inicial do projeto. Além disso sugira, ferramentas, equipe e infraestrutura necessária. Siga as instruções defenido em <instructions>. Dado que este é um planajemento inical antes da análise dos requisitos, só planeje as macro-atividades e seus potênciais entregáveis. Planeje conforme o contexto no {{DOCUMENTO}} anexado. Ao construir o plano, fique atento as dependências e restrições; mapeie os riscos e como mitiga-los. 
@@ -168,6 +153,3 @@ Descreve o propósito geral do plano, os objetivos principais do projeto, e os r
 - [Documentos relacionados: contexto, requisitos, etc.]</template>
 ````
 
-
-## Referências
-- [Prompt engineering overview](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview)

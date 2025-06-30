@@ -1,30 +1,4 @@
-# 💡 ANALYSIS
-A etapa de análise é dedicada à compreensão profunda do problema, do domínio e das necessidades dos usuários, transformando essas informações em requisitos claros, priorizados e viáveis. Ela conecta diretamente a visão estratégica (ideação e planejamento) com a solução técnica que será modelada e construída.
-
-Nesta fase, são realizadas atividades que permitem detalhar o que o sistema deve fazer, sem ainda entrar na implementação. O foco está em identificar requisitos funcionais e não funcionais, fluxos de negócio, regras, exceções e interações com sistemas externos.
-
-## 📘 Atividades 
-
-| Atividade                              | Artefatos                                                                                     | Execução            |
-|----------------------------------------|-----------------------------------------------------------------------------------------------|---------------------|
-| Elaboração do Documento de requisitos  | Lista de Requisitos Funcionais <br> Lista de Requisitos Não Funcionais <br> Casos de uso <br> Regras de Negócio <br> Critérios de aceitação | 🧑🏽🧠 Humano com suporte de IA |
-| Análise de processos existentes ou documentação legada | Avaliar uso de bases de conhecimento e RAG                                                   | 🧑🏽🧠 Humano com suporte de IA |
-| Elaboração de Backlog                  | User stories                                                                                 | 🧑🏽🧠 Humano com suporte de IA |
-
-## 🧰 Ferramentas
-- LLMs
-    - ChatGpt o3 | Gemini 2.5 Pro
-    - NotbookLLM
-
-## 📄 Artefatos
-
-- [Documento de Requisitos de Software (DRS)](./artifact/analysis-document.md)
-- [Backlog de Produto](./artifact/analysis-backlog.md)
-
-## 🔗 Anexos
-
-
-### Prompt para geração do Documento de Requisitos de Software (DRS)
+### A. Prompt para geração do Documento de Requisitos de Software (DRS)
 ````xml
 <context>
     Você irá atuar como um especialista em projetos de software com enfase elaboração de requisitos. Seu papel é auxiliar na geração de artefatos de análise para guiar a modelagem e construção da solução técnica. Com base no {{DOCUMENTO DE CONTEXTO}} e no {{PLANO}} listados em <attachements>, elabore o Documento de Requisitos de Software (DRS). Para isso, siga as instruções defenido em <instructions>. 
@@ -144,7 +118,7 @@ Links, diagramas, documentos externos ou materiais complementares usados na elab
 ````
 
 
-### Prompt para geração do Backlog de Produto
+### B. Prompt para geração do Backlog de Produto
 ````xml
 <context>
     Você irá atuar como um especialista em projetos de software com enfase elaboração de requisitos. Seu papel é auxiliar na geração de artefatos de análise para guiar a modelagem e construção da solução técnica. Com base no {{DOCUMENTO DE CONTEXTO}}, {{DOCUMENTO DE ANALISE}} e {{PLANO}} listados em <attachements>, elabore o Backlog de Produto. Para isso, siga as instruções defenido em <instructions>. 
@@ -208,8 +182,3 @@ Como [tipo de usuário], quero [funcionalidade desejada] para [valor/benefício 
 - O backlog é vivo: pode (e deve) ser ajustado conforme evolução do projeto.
 </template>
 ````
-
-
-
-## Referências
-- [Prompt engineering overview](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview)

@@ -1,34 +1,4 @@
-# 💡 DESIGN
-A etapa de Design é responsável pela transformação dos requisitos levantados na análise em soluções técnicas concretas, que orientarão diretamente a construção do sistema. Nessa fase, são criadas as estruturas lógicas, funcionais e visuais que formarão a base da implementação. O foco está em traduzir “o que deve ser feito” (requisitos) em “como será feito” por meio de modelos, diagramas e decisões arquiteturais. Um bom design visa clareza, coesão, reutilização e manutenibilidade.
-
-## 📘 Atividades 
-
-| Atividade                          | Artefatos                                                                                     | Execução            |
-|------------------------------------|-----------------------------------------------------------------------------------------------|---------------------|
-| Aplicar Análise de Trade-offs      | Lista de cenários e atributos de qualidade. <br> Trade-offs arquiteturais                     | 🧑🏽🧠 Humano com suporte de IA |
-| Definir Modelagem de dados         | Entidades, atributos, relacionamentos e restrições.                                           | 🧑🏽🧠 Humano com suporte de IA |
-| Definir Arquitetura de software    | Diagramas de sistemas (integração entre sistemas). <br> Diagramas de containers (ex: camadas, microsserviços, monolito), tecnologias, frameworks e integração entre módulos. <br> Diagramas de Componentes (estrutura interna dos módulos e responsabilidades de cada parte do sistema). | 🧑🏽🧠 Humano com suporte de IA |
-| Definir Fluxos de interação        | Diagramas de sequência, casos de uso, fluxogramas de atividades, etc.                         | 🧑🏽🧠 Humano com suporte de IA |
-| Criar Protótipos de interface (UI) | Quando aplicável, criação de wireframes ou mockups para validar a experiência do usuário.      | 🧑🏽🧠 Humano com suporte de IA |
-| Design de APIs                     | Definição de contratos, formatos de payload, autenticação e padrões de versionamento.         | 🧑🏽🧠 Humano com suporte de IA |
-
-## 🧰 Ferramentas
-- LLMs
-    - claude-4-sonnet
-- cursor IDE
-
-## 📄 Artefatos
-
-- [Modelagem de dados](./artifact/design-modelagem-dados.md)
-- [Análise de Trade-offs ](./artifact/design-tradeoffs.md)
-- [Arquitetura de software (Main)](./artifact/design-diagram.md)
-- [Arquitetura de software (Contexto)](./artifact/design-diagram-context.md)
-- [Arquitetura de software (Containers)](./artifact/design-diagram-container.md)
-- [Arquitetura de software (Componentes)](./artifact/design-diagram-component.md)
-
-## 🔗 Anexos
-
-### Prompt para Análise de Tradeoffs
+### A. Prompt para Análise de Tradeoffs
 ````xml
 <context>
     Você irá atuar como um arquiteto de software sênior. Seu papel é auxiliar na geração de artefatos de arquitetura para guiar a construção da solução técnica. Com base no {{DOCUMENTO DE ANALYSIS}} e {{BACKLOG}} listados em <attachements>, elabore a {{Quality Attribute Utility Tree}} para o processo de análise de Tradeoffs. Para isso, siga as instruções defenido em <instructions>. 
@@ -95,8 +65,7 @@ Cada cenário de qualidade é descrito com os seguintes elementos:
 </template>
 ````
 
-
-### Prompt para geração do Modelo Entidade Relacionamento(MER/DER)
+### B. Prompt para geração do Modelo Entidade Relacionamento(MER/DER)
 ````xml
 <context>
     Você irá atuar como um engenheiro de dados sênior. Seu papel é auxiliar na geração de artefatos de arquitetura para guiar a construção da solução técnica. Com base no {{DOCUMENTO DE ANALYSIS}} e no {{BACKLOG}} listados em <attachements>, elabore o Modelo Entidade Relacionamento {{MER}} e o Diagrama Entidade Relacionamento {{DER}}. Para isso, siga as instruções defenido em <instructions>. 
@@ -182,7 +151,7 @@ Documentação das entidades, atributos e relacionamentos do sistema.
 
 ````
 
-### Prompt para geração dos diagramas de Arquitetura
+### C. Prompt para geração dos diagramas de Arquitetura
 ````xml
 <context>
     Você irá atuar como um arquiteto de software sênior. Seu papel é auxiliar na geração de artefatos de arquitetura para guiar a construção da solução técnica. Com base no {{DOCUMENTO DE ANALYSIS}}, {{BACKLOG}}, {{TRADEOFFS}} e {{DER}} listados em <attachements>, elabore os diagramas de arquitetura dos sistemas, containeres e componentes da solução. Leve em consideração que a equipe é especializada em AWS, dotnet e C#. Além disso, a equipe deseja evitar uma complexidade inical no projeto. Nesse sentido, ela quer apostar em um monolito modular para backend. 
@@ -213,9 +182,3 @@ Documentação das entidades, atributos e relacionamentos do sistema.
  - {{C4-PlantUML}} = https://github.com/plantuml-stdlib/C4-PlantUML
 </references>
 ````
-
-
-
-
-## Referências
-- [Prompt engineering overview](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview)
