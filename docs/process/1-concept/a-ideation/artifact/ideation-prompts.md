@@ -4,10 +4,15 @@
 ````xml
 <context>
     Você irá atuar como pesquisador da área de engenharia de software atuando como consultor na indústria. Seu papel é 
-    auxiliar na construção de soluções de software. {{DESCRIÇÃO GERAL DO PROBLEMA}}. Com base nisso, faça uma revisão 
-    rápida nas bases de artigos acadêmicos e blogs técnicos da indústria para listar os tópicos e categorias de problemas, 
-    bem como as referências relacionadas ao cenário descrito. Para isso, use os seguintes <inclusion_criteria> 
-    e <exclusion_criteria>. Como saída use o <template>.
+    auxiliar o Banco JUBV na construção de soluções de software. O banco possui uma area de investimentos que é muito 
+    regulada pelo governo. Constantemente há alterações em regas de impostos sobre investimentos. O atual sistema da 
+    área de investimentos possue divesas aplicações legadas (mainframe) as quais possuem regras de calculo de impostos 
+    escritas diretamente nos seus códigos-fontes. Nesse cenário, a cada mudança a equipe acaba tendo que realizar 
+    mudanças em váriras aplicações, testar e implantar. Dado a frequencia e a urgência que essa situação ocorre, 
+    a equipe sente a necessidade de uma solucão para diminuir a complexidade e os riscos envolvidos nessas mudanças. 
+    Com base nisso, faça uma revisão rápida nas bases de artigos acadêmicos e blogs técnicos da indústria para listar 
+    os tópicos e categorias de problemas, bem como as referências relacionadas ao cenário do Banco JUBV. Para isso, 
+    use os seguintes <inclusion_criteria> e <exclusion_criteria>. Como saída use o <template>.
 </context>
 
 <inclusion_criteria> 
@@ -36,9 +41,14 @@
 ````xml
 <context>
     Você irá atuar como um especialista em projetos de software com enfase elaboração e análise de requisitos. Seu papel
-    é auxiliar na construção de soluções de software. {{DESCRIÇÃO DO PROBLEMA}}. Com base nisso, faça um roteiro de perguntas para ser conduzido 
-    numa entrevista com os stakeholders. As perguntas devem ser objetivas o suficiente para obter informações das seguintes
-    <categories>. Como saída use o seguinte <template>.
+    é auxiliar o Banco JUBV na construção de soluções de software. O banco possui uma area de investimentos que é muito 
+    regulada pelo governo. Constantemente há alterações em regas de impostos sobre investimentos. O atual sistema da 
+    área de investimentos possue divesas aplicações legadas (mainframe) as quais possuem regras de calculo de impostos 
+    escritas diretamente nos seus códigos-fontes. Nesse cenário, a cada mudança a equipe acaba tendo que realizar 
+    mudanças em váriras aplicações, testar e implantar. Dado a frequencia e a urgência que essa situação ocorre, a equipe
+    sente a necessidade de uma solucão para diminuir a complexidade e os riscos envolvidos nessas mudanças. Com base 
+    nisso, faça um roteiro de perguntas para ser conduzido numa entrevista com os stakeholders. As perguntas devem ser 
+    objetivas o suficiente para obter informações das seguintes <categories>. Como saída use o seguinte <template>.
 </context>
 
 <categories> 
@@ -60,8 +70,19 @@
 ````xml
 <context>
     Você irá atuar como um especialista em projetos de software com enfase elaboração e análise de requisitos. 
-    Seu papel é auxiliar na construção de soluções de software. {{DESCRIÇÃO GERAL DO PROBLEMA}}. Dado esse conjunto 
-    de informações, escreva o documento de contexto do projeto com base nas <instructions>.
+    Seu papel é auxiliar o Banco JUBV na construção de soluções de software. O banco possui uma area de investimentos 
+    que é muito regulada pelo governo. Constantemente há alterações em regas de impostos sobre investimentos. O atual 
+    sistema da área de investimentos possue divesas aplicações legadas (mainframe) as quais possuem regras de calculo 
+    de impostos escritas diretamente nos seus códigos-fontes. Nesse cenário, a cada mudança a equipe acaba tendo que 
+    realizar mudanças em váriras aplicações, testar e implantar. Dado a frequencia e a urgência que essa situação 
+    ocorre, a equipe sente a necessidade de uma solucão para diminuir a complexidade e os riscos envolvidos nessas 
+    mudanças. Nesse sentido, a equipe cogitou a criação de um motor de cálculo como serviço, que oferecerá mecanismos 
+    para registro, gerenciamento e execução de funções lógicas e aritiméticas. Essa solução deve ser utilizada por uma 
+    equipe de operações que terá autonomia de criar, alterar e retirar as regras do motor de calculo, sem precisar 
+    modificar e implantar as aplicações do sistema. A gestão da área de investimentos do banco espera que esse motor 
+    seja reutilizável em diversos contextos da área, e como consequencia no Banco JUBV. Em termos técnicos, a equipe de 
+    tecnologia responsável pela construção do motor de calculo usa serviços AWS e adota dotnet framework com a 
+    linguagem C#. Dado esse conjunto de informações, escreva o documento de contexto do projeto com base nas <instructions>.
 <context>
 
 <instructions>
