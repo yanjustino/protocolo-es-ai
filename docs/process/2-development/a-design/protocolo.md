@@ -23,8 +23,8 @@ flowchart TD
     B[Definir Modelagem de dados]
     C[Definir Arquitetura de software]
     D[Definir Fluxos de interação]
-    E[Criar Protótipos de interface UI]
-    F[Design de APIs]
+    E[Criar Protótipos de interface UI - Opcional]
+    F[Design de APIs - Opcional]
 
     A --> B
     B --> C
