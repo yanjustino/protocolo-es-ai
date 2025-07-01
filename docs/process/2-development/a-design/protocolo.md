@@ -17,6 +17,22 @@ Transformar os requisitos levantados na análise em representações técnicas d
 | Criar Protótipos de interface (UI) | Geração de wireframes, sugestões de interface, descrição de jornada do usuário              | `design-ui.md` (opcional)                                               | Usabilidade, consistência visual, aderência ao domínio              | Nº de elementos reaproveitados no front-end              |
 | Design de APIs                     | Definição de endpoints, payloads, autenticação, versionamento                               | `design-apis.md`                                                         | Conformidade com boas práticas REST; compatibilidade com integração | Nº de endpoints aceitos; tempo médio por definição       |
 
+````mermaid
+flowchart TD
+    A[Aplicar Análise de Trade-offs]
+    B[Definir Modelagem de dados]
+    C[Definir Arquitetura de software]
+    D[Definir Fluxos de interação]
+    E[Criar Protótipos de interface UI]
+    F[Design de APIs]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+````
+
 ## 📂 Artefatos Modelos
 
 - [Modelo de entidades e relacionamentos](./artifact/design-modelagem-dados.md)

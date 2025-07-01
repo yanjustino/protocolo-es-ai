@@ -12,6 +12,15 @@ Compreender profundamente o problema, o domínio e as necessidades dos usuários
 | Elaboração do Documento de Requisitos  | Auxílio na estruturação e detalhamento de requisitos com base em contexto e plano                 | Documento de Requisitos de Software (DRS) (`analysis-document.md`)          | Clareza, completude e coerência entre os requisitos                              | Nº de requisitos aceitos; tempo de geração             |
 | Elaboração de backlog                  | Apoio à criação e refinamento de user stories com critérios de aceitação                          | Backlog de Produto (`analysis-backlog.md`)                                   | Clareza dos critérios de aceitação; cobertura do escopo                          | Nº de histórias geradas por tempo; % aprovadas         |
 
+
+````mermaid
+flowchart TD
+    A[Elaboração do Documento de Requisitos]
+    B[Elaboração de backlog]
+
+    A --> B
+````
+
 ## 📂 Artefatos Modelos
 
 - [Documento de Requisitos de Software (DRS)](./artifact/analysis-document.md)

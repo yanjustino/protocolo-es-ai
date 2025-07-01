@@ -18,7 +18,21 @@ Converter a ideia conceitual da etapa de ideação em um plano estruturado, viá
 | Sugerir cerimônias e rituais     | Propor cerimônias compatíveis com ágil e DevOps                              | Plano do projeto `(prompt A)` | Clareza e utilidade das cerimônias para alinhamento                | Frequência e aderência das reuniões planejadas     |
 | Gerar documento de plano         | Consolidar todos os itens em um template padrão em Markdown                  | Plano do projeto `(prompt A)` | Coesão, estrutura e completude do plano                            | Nº de revisões do plano; tempo de geração total    |
 
----
+```mermaid
+flowchart TD
+    A[Definir escopo inicial]
+    B[Alocar recursos]
+    C[Estimar cronograma e entregas]
+    D[Mapear riscos e restrições]
+    E[Sugerir cerimônias e rituais]
+    F[Gerar documento de plano]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+```
 
 ## 📂 Artefatos Modelos
 - [Plano](./artifact/plan-document.md)

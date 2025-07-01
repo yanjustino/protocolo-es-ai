@@ -18,6 +18,26 @@ Utilizar LLMs para descoberta e documentação da ideia inicial, com foco na com
 | Revisar documento                  | (eventualmente uso de LLM para correção linguística ou refinamento) | —                                      | Coerência, clareza textual                                             | Tempo de revisão                             |
 | Disponibilizar documento           | —                                                                   | Documento final publicado              | Conformidade com versão esperada e padrões de formatação              | Tempo até entrega                            |
 
+```mermaid
+flowchart TD
+    A[Identificar problema]
+    B[Estudos de benchmarking]
+    C[Elaborar roteiro de entrevista]
+    D[Contextualizar problema]
+    E[Compilar documentos]
+    F[Gerar documento de contexto]
+    G[Revisar documento]
+    H[Disponibilizar documento]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    G --> H
+```    
+
 ## 🧠 Exemplos de Aplicações com LLMs
 
 - **LLMs (ChatGPT ou Gemini)**:
