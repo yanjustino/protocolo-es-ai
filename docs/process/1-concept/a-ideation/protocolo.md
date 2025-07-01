@@ -31,8 +31,8 @@ flowchart TD
 
     A --> B
     B --> C
-    A --pular benchmarking--> C
-    A --pular roteiro--> D
+    A --pular--> C
+    A --pular--> D
     C --> D
     D --> E
     E --> F
