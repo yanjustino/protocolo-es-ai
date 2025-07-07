@@ -75,7 +75,12 @@
 
 ### 3.2 Fluxo de Desenvolvimento
 
+![img.png](img1.png)
+
+#### 3.2.1 Ciclo de Vida do refinamento
 ![img.png](img.png)
+
+<small>*Em progresso</small>
 
 
 ### 3.3 Definição de Pronto (DoD)
