@@ -78,6 +78,9 @@
 ![img.png](img1.png)
 
 #### 3.2.1 Ciclo de Vida do refinamento
+![img.png](img2.png)
+
+#### 3.2.2 Ciclo de Vida de Ideação 
 ![img.png](img.png)
 
 <small>*Em progresso</small>
